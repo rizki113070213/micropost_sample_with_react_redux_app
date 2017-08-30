@@ -1,0 +1,12 @@
+{
+  "name": "micropost_sample_app",
+  "private": true,
+  "dependencies": {},
+  "cacheDirectories": [
+    "node_modules",
+    "client/node_modules"
+  ],
+  "scripts": {
+    "postinstall": "cd client && npm install"
+  }
+}
